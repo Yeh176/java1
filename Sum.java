@@ -7,11 +7,15 @@ public class Sum {
         System.out.print("Enter the end number:");
         int end=input.nextInt();
         int sum = 0;
+        int count = 0;
         if (start <= end) {
             for (int i = start; i <= end; i++) {
                 sum = sum + i;
+                count++;
             }
+            double average = (double)sum/count;
             System.out.println("The sum from" + start + "to" + end + "is" + sum);
+            System.out.println("Average = " + average);
         }
         else {
             System.out.println("Error: start cannot be larger than end!");
