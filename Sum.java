@@ -21,8 +21,6 @@ public class Sum {
             average=(float)sum/count;
             System.out.println("The sum from" + start + "to" + end + "is" + sum);
             System.out.println("Total even numbers: " + evenCount);5
-            System.out.println("The average is:" + average);
-            System.out.println("Total even numbers: " + evenCount);
         }
         else {
             System.out.println("Error: start cannot be larger than end!");
